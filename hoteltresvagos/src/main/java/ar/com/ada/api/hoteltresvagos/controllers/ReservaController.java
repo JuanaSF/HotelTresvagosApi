@@ -80,7 +80,7 @@ public class ReservaController {
     }
 
     @PutMapping("/reservas/{id}")
-    public ResponseEntity<?> postReserva(@PathVariable int id, @RequestBody Reserva req) {
+    public ResponseEntity<?> putReserva(@PathVariable int id, @RequestBody Reserva req) {
 
         GenericResponse r = new GenericResponse();
 

@@ -82,7 +82,7 @@ public class HuespedController {
     }
 
     @PutMapping("/huespedes/{id}")
-    public ResponseEntity<?> postHuesped(@PathVariable int id, @RequestBody Huesped req) {
+    public ResponseEntity<?> putHuesped(@PathVariable int id, @RequestBody Huesped req) {
 
         GenericResponse r = new GenericResponse();
 
